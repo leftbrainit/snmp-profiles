@@ -16,6 +16,7 @@ no_use_bulkwalkall: true
 # If the sysDesc matches these regexes, use the corresponding profile.
 # Regex is run on _lower case_ version of the sysDesc string.
 matches:
+  "/synology/i": disk_station.yml
   "^pfsense": pf_sense.yml
   "barracuda email security gateway": barracuda-email-gateway.yml
   "^uap-ac-inwall": unifi-access-point.yml
